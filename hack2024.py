@@ -6,7 +6,7 @@ from datetime import datetime, timedelta
 # Define the date
 date_2024 = datetime(2024, 1, 7) # year month day
 # Get the current date
-current_date = datetime.now()
+current_date = datetime(2025, 1, 1) 
 # Calculate the difference in days
 difference = current_date - date_2024
 days_difference = difference.days
