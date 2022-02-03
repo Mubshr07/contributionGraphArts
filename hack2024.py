@@ -114,7 +114,7 @@ for j in range(days_difference, -1, -1):
     #print(" column: {}, row:{}".format(indexColumn, indexRows))
     if (dateArray[indexRows][indexColumn] == 1):
         for i in range(0, 10):
-            current_date = datetime.now()
+            current_date =  datetime(2025, 1, 1) 
             commit_date = current_date  - timedelta(days=j)
             
             # Format the date in ISO 8601 format
