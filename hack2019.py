@@ -111,7 +111,7 @@ indexRows = 0
 for j in range(days_difference, -1, -1):
     #print(" column: {}, row:{}".format(indexColumn, indexRows))
     if (dateArray[indexRows][indexColumn] == 1):
-        for i in range(0, 10):
+        for i in range(0, 7):
             current_date = datetime.now()
             commit_date = current_date  - timedelta(days=j)
             
