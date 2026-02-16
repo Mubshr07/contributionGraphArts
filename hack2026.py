@@ -78,7 +78,10 @@ body { font-family: Arial, Helvetica, sans-serif; }
 
 jsText= """const tmpl = "<h1>Hi, I'm {{name}}.</h1>";
 const data = {
-  name: "Mubashir Iqbal"
+  name: "Mubashir Iqbal",
+  email: "mubshr07@gmail.com",
+  phone: "00923185099232",
+  profession: "Lecturer | Data Science Research | Artificial Intelligence | System Engineering & Automation"
 };
 const template = templater(tmpl);
 document.write(template(data));
