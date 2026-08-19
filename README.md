@@ -48,7 +48,7 @@ To design your own pattern:
 - Sketch it out on a 7-row × 51-column grid (one row per weekday, one column per week of the year).
 - Mark the squares you want lit up as `1` and everything else as `0`.
 - Paste the grid into the `dateArray` variable in the script for the year you're targeting.
-
+---
 ## Author
 
 **Mubashir Iqbal**
